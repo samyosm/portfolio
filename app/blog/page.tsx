@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-    <div className="px-5 space-y-10 md:px-0 w-full max-w-screen-sm mx-auto my-6">
+    <div className="px-5 space-y-16 md:px-0 w-full max-w-screen-sm mx-auto my-6">
       <header className="space-y-2 mx-auto w-fit text-center">
         <p className="text-4xl font-semibold text-slate-900">
           Articles for <span className="text-indigo-500">devs</span>
@@ -19,7 +19,12 @@ export default function Page() {
       </header>
       <section>
         <ul className="space-y-10">
-          {posts.map((p) => (
+          {posts.sort((a, b) =>
+            (new Date(b.date)).getTime() -
+            (new Date(a.date).getTime())
+          ).map((
+            p,
+          ) => (
             <li
               key={p.slug}
               className=""
