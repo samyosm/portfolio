@@ -7,7 +7,10 @@ import { cn } from "@/utils/cn";
 const font = Font({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Hi, I'm Samy",
+  title: {
+    default: "Samy",
+    template: "%s | Samy",
+  },
   description:
     "A Web Developer with high level of experience in web design and development.",
 };

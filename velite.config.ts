@@ -10,13 +10,14 @@ export default defineConfig({
       pattern: "posts/**/*.md", // content files glob pattern
       schema: s
         .object({
-          title: s.string().max(99), // Zod primitive type
+          title: s.string(), // Zod primitive type
           slug: s.slug("posts"), // validate format, unique in posts collection
           // slug: s.path(), // auto generate slug from file path
           date: s.isodate(), // input Date-like string, output ISO Date string.
           metadata: s.metadata(), // extract markdown reading-time, word-count, etc.
           excerpt: s.excerpt(), // excerpt of markdown content
           content: s.markdown(), // transform markdown to html
+          tags: s.array(s.string()),
         })
         // more additional fields (computed fields)
         .transform((data) => ({ ...data, permalink: `/blog/${data.slug}` })),
