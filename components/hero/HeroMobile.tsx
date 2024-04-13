@@ -3,12 +3,10 @@ import Image from "next/image";
 import { SocialLinks } from "./SocialLinks";
 import { HeroPresentation } from "./HeroPresentation";
 
-export interface HeroProps { }
-
-export function HeroMobile(props: HeroProps) {
+export function HeroMobile() {
   return (
-    <div className="w-full my-6 xl:hidden space-y-16">
-      <div className="flex items-center justify-between gap-10">
+    <div className="w-full my-6 lg:hidden space-y-16">
+      <div className="flex items-center justify-between gap-5 w-full max-w-80 ml-auto">
         <SocialLinks />
         <figure className="relative w-64 h-64">
           <Image

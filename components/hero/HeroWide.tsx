@@ -3,11 +3,9 @@ import Image from "next/image";
 import { SocialLinks } from "./SocialLinks";
 import { HeroPresentation } from "./HeroPresentation";
 
-export interface HeroProps { }
-
-export function HeroWide(props: HeroProps) {
+export function HeroWide() {
   return (
-    <div className="w-full items-center justify-between my-24 hidden xl:flex">
+    <div className="w-full items-center justify-between my-24 hidden lg:flex">
       <div className="flex items-center gap-16">
         <SocialLinks />
         <HeroPresentation />
