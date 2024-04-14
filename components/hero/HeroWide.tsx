@@ -1,6 +1,6 @@
 import Illustration from "@/assets/illustration.svg";
 import Image from "next/image";
-import { SocialLinks } from "./SocialLinks";
+import { SocialLinks } from "../social-link/SocialLinks";
 import { HeroPresentation } from "./HeroPresentation";
 
 export function HeroWide() {

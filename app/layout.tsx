@@ -3,6 +3,7 @@ import { Lexend as Font } from "next/font/google";
 import "./globals.css";
 import { Header } from "../components/header/Header";
 import { cn } from "@/utils/cn";
+import { Footer } from "@/components/footer/Footer";
 
 const font = Font({ subsets: ["latin"] });
 
@@ -21,12 +22,18 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={cn(font.className, "max-w-screen-xl mx-auto")}>
+    <html lang="en" className="h-full">
+      <body
+        className={cn(
+          font.className,
+          "max-w-screen-xl mx-auto pb-10",
+        )}
+      >
         <Header />
-        <main>
+        <main className="h-full">
           {children}
         </main>
+        <Footer />
       </body>
     </html>
   );
