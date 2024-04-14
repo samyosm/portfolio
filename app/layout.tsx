@@ -26,11 +26,11 @@ export default function RootLayout({
       <body
         className={cn(
           font.className,
-          "max-w-screen-xl mx-auto pb-10",
+          "max-w-screen-xl mx-auto min-h-screen flex flex-col",
         )}
       >
         <Header />
-        <main className="h-full">
+        <main className="h-full flex-1">
           {children}
         </main>
         <Footer />
