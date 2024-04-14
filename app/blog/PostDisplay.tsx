@@ -1,4 +1,5 @@
 import { Post } from "@/.velite";
+import { Highlight } from "@/components/highlight/Highlight";
 import Link from "next/link";
 
 export function PostDisaply({ p }: { p: Post }) {
@@ -7,16 +8,10 @@ export function PostDisaply({ p }: { p: Post }) {
       <article className="space-y-3">
         <hgroup>
           <h1 className="text-slate-900 text-xl font-semibold">
-            {p.title}
+            <Highlight content={p.title} />
           </h1>
           <p className="whitespace-nowrap overflow-x-auto w-full">
-            <time dateTime={p.date}>
-              {new Date(p.date).toLocaleDateString(undefined, {
-                day: "numeric",
-                month: "short",
-                year: "numeric",
-              })}
-            </time>
+            <time dateTime={p.prettyDate}>{p.prettyDate}</time>
             {p.tags.map((t) => <Tag key={t} text={t} />)}
           </p>
         </hgroup>

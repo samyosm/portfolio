@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import typography from "@tailwindcss/typography";
 
 const {
   default: flattenColorPalette,
@@ -12,7 +13,7 @@ const config: Config = {
   ],
   darkMode: "class",
   theme: {},
-  plugins: [addVariablesForColors],
+  plugins: [addVariablesForColors, typography],
 };
 
 // This plugin adds each Tailwind color as a global CSS variable, e.g. var(--gray-200).

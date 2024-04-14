@@ -20,8 +20,8 @@ export default function Page() {
       <section>
         <ul className="space-y-10">
           {posts.sort((a, b) =>
-            (new Date(b.date)).getTime() -
-            (new Date(a.date).getTime())
+            b.date.getTime() -
+            a.date.getTime()
           ).map((
             p,
           ) => (

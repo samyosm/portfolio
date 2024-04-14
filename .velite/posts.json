@@ -1,49 +1,52 @@
 [
   {
-    "title": "🚀A Step-by-Step Guide to build a secure Rails app: Sign Up, Log In, and Log Out",
-    "slug": "another-one",
-    "date": "2000-02-25T18:22:00.000Z",
-    "metadata": {
-      "readingTime": 1,
-      "wordCount": 157
-    },
-    "excerpt": "Introduction\nProviding the security of web applications is paramount, and one of the binding\naspects of it is authentication. It fosters the safe and secure sign-up, login,\nand logout of users. In this article, we'll dive deeper into the implementation\nof auth",
-    "content": "<h1>Introduction</h1>\n<p>Providing the security of web applications is paramount, and one of the binding\naspects of it is authentication. It fosters the safe and secure sign-up, login,\nand logout of users. In this article, we'll dive deeper into the implementation\nof authentication in a Rails app, utilizing the built-in features and popular\ngems that are available. From configuring authentication to managing user\nsessions, this article will cover everything you need to know to make your\napplication secure and reliable.</p>\n<p>We will begin by starting up a simple Rails application</p>\n<p>In our web service, we can fill the prompt and generate image with one of the\ntext-to-image worker AI model randomly.</p>\n<p>And our techniques are as follows:</p>\n<p>Front-end: The index.html is the main page to let users input their prompts and\nsee generated image. Back-end: The extract.php is the main PHP program to handle\nuser prompt and respond generated image.</p>",
-    "tags": [
-      "linux"
+    "title": "The Legend of *Linus Torvalds* (Linux Creator)",
+    "toc": [
+      {
+        "title": "Education",
+        "url": "#education",
+        "items": []
+      },
+      {
+        "title": "Linux beginning",
+        "url": "#linux-beginning",
+        "items": []
+      },
+      {
+        "title": "Linux community",
+        "url": "#linux-community",
+        "items": []
+      },
+      {
+        "title": "Git",
+        "url": "#git",
+        "items": []
+      },
+      {
+        "title": "Today",
+        "url": "#today",
+        "items": []
+      },
+      {
+        "title": "Fun Fact: Beef with Nvidia",
+        "url": "#fun-fact-beef-with-nvidia",
+        "items": []
+      }
     ],
-    "permalink": "/blog/another-one"
-  },
-  {
-    "title": "How Telemetry Saved my Open-Source Platform",
-    "slug": "how-telemetry-saved-my-open-source-platform",
-    "date": "1992-02-25T18:22:00.000Z",
+    "date": "2024-04-13T18:58:00.000Z",
     "metadata": {
-      "readingTime": 1,
-      "wordCount": 135
+      "readingTime": 2,
+      "wordCount": 450
     },
-    "excerpt": "What started as a frustration with not being able to get in touch with our\nusers, quickly developed into a redesign of the flow of our platform.\nMy team and I are developing an open-source platform that helps developers\ndeploy and manage their applications in ",
-    "content": "<p>What started as a frustration with not being able to get in touch with our\nusers, quickly developed into a redesign of the flow of our platform.</p>\n<p>My team and I are developing an open-source platform that helps developers\ndeploy and manage their applications in Kubernetes. We have been working hard to\nexpand our user base, and the efforts were starting to show results.</p>\n<p>The rising number of installations was satisfying to see. However, that was the\nonly thing we were able to observe. We wanted to know more. We wanted to know\nwhat users are doing with our platform and what they are struggling with.</p>\n<p>The following short story could be considered a #building-in-public entry of our\nstartup, but I just found it interesting and wanted to share it with you.</p>",
+    "excerpt": "Linus Benedict Torvalds is born on the 28th of December 1969 in Helsinki,\nFinland to a educated and wealthy family of journalists. This means he grows up\nin tech-savvy environment that sparks his interest in computers. At this point\nin time, he has no idea thi",
+    "abstract": "My first article on this website that I write, mainly made of lorem ipsum for testing purposes.",
+    "content": "<p>Linus Benedict Torvalds is born on the 28th of December 1969 in Helsinki,\nFinland to a educated and wealthy family of journalists. This means he grows up\nin tech-savvy environment that sparks his interest in computers. At this point\nin time, he has no idea this interest in technology would change the tech world\nfor ever.</p>\n<p>First lines of code in basic:</p>\n<pre><code>10 PRINT \"SARA IS THE BEST\"\n20 GOTO 10\n</code></pre>\n<h2>Education</h2>\n<p>From this interest, he goes to the University of Helsinki for a Master’s degree\nin computer science. This allows him to hone his programming skills and teach\nhim about operating systems. A year after starting university, however, he joins\nthe Finnish navy for his mandatory military service.</p>\n<h2>Linux beginning</h2>\n<p>At this point, Linus Torvalds started using MS-DOS (Microsoft’s OS) but\npreferred using UNIX (IBM’s OS). He was frustrated with their limitations, so he\nstarted working on a new operating system as a small side project. Unbeknownst\nto him, this side project would come to power 96.3% of the Internet 20 years\nlater.</p>\n<h2>Linux community</h2>\n<p>With time, the development of Linux became more than one man can handle. The\nproject was therefore made open for development by anyone willing to contribute;\nthat is, it became open source. To Linus’ surprise, a lot of people came to use\nand contribute to Linux. Which greatly hastened the release of Linux 1.0.</p>\n<p>At the start, Linus was afraid of commercial use of his work so it was actually\nforbidden. It is only after hearing a speech by Richard Stallman on the nature\nof free and open source software that Linus was moved to use the GPLv2 license.</p>\n<h2>Git</h2>\n<p>The sheer amount of Linux contributions were becoming hard to manage. As such,\nLinus created Git, a version control software (VCS). There again, he created\nsomething of immense importance without realizing it.</p>\n<p>Git is used by all Fortune 500 companies and almost all software you can think\nof. They have over 90% market share of version control software. If you’ve once\nworked as a developers, you have most likely used Git.</p>\n<h2>Today</h2>\n<p>By 2006, Linus became much more of a community project rather than Linus’ work.\nIndeed, less that 2% of Linus code was was written by Linus himself. Now days,\nwe can expect the number to be near 0. Still, to this day, he is an active\nmaintainer of Linux repository and continues to contribute.</p>\n<h2>Fun Fact: Beef with Nvidia</h2>\n<p>In 2012, he participated to a Q&#x26;A where people asked him questions about Linux.\nSomewhere in the interview, he begins to talk about how hard Nvidia was to work\nwith; especially with their close-sourced code. However, it quickly got the\npoint where he says \"Nvidia FUCK YOU!\" before giving the middle finger.</p>",
     "tags": [
-      "opensource",
-      "programming"
+      "first",
+      "not-second"
     ],
-    "permalink": "/blog/how-telemetry-saved-my-open-source-platform"
-  },
-  {
-    "title": "Web Extract Worker, a service with text-to-image worker AI models!",
-    "slug": "web-extract",
-    "date": "1994-02-25T18:22:00.000Z",
-    "metadata": {
-      "readingTime": 1,
-      "wordCount": 66
-    },
-    "excerpt": "In our web service, we can fill the prompt and generate image with one of the\ntext-to-image worker AI model randomly.\nAnd our techniques are as follows:\nFront-end: The index.html is the main page to let users input their prompts and\nsee generated image. Back-e",
-    "content": "<p>In our web service, we can fill the prompt and generate image with one of the\ntext-to-image worker AI model randomly.</p>\n<p>And our techniques are as follows:</p>\n<p>Front-end: The index.html is the main page to let users input their prompts and\nsee generated image. Back-end: The extract.php is the main PHP program to handle\nuser prompt and respond generated image.</p>",
-    "tags": [
-      "opensource",
-      "linux"
-    ],
-    "permalink": "/blog/web-extract"
+    "prettyDate": "Apr 13, 2024",
+    "slug": "the-legend-of-*linus-torvalds*-(linux-creator)",
+    "permalink": "/blog/the-legend-of-*linus-torvalds*-(linux-creator)"
   }
 ]
